@@ -8,6 +8,7 @@ import IconButton from "./components/IconButton";
 import CicleButton from "./components/CircleButton";
 import EmojiPicker from "./components/EmojiPicker";
 import EmojiList from "./components/EmojiList";
+import EmojiSticker from "./components/EmojiSticker";
 
 const PlaceholoderImage = require("./assets/images/background-image.png");
 
