@@ -66,6 +66,9 @@ export default function App() {
               label="Save"
               onPress={onSaveImagemAsync}
             />
+            {pickedEmoji !== null ? (
+              <EmojiSticker imageSize={40} stickerSource={pickedEmoji} />
+            ) : null}
           </View>
         </View>
       ) : (
